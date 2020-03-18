@@ -37,8 +37,7 @@ import { EnderecoNovoComponent } from './endereco-novo/endereco-novo.component';
     EnderecoComponent,
     EnderecoDetalheComponent,
     EnderecoEditarComponent,
-    EnderecoNovoComponent,
-    TesteComponent
+    EnderecoNovoComponent
   ],
   imports: [
     BrowserModule,

@@ -28,8 +28,8 @@ export class PessoaEditarComponent implements OnInit {
 
   }
 
-  getPessoa(id){
-    this.api.getPessoa(id).subscribe(data =>{
+  getPessoa(id) {
+    this.api.getPessoa(id).subscribe(data => {
       this.id = data.id;
       this.pessoaForm.setValue({
         nome: data.nome,
